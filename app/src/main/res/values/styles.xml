@@ -8,4 +8,31 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <style name="CustomTheme" parent="AppTheme">
+        <item name="android:windowBackground">@color/custom_theme_color</item>
+        <item name="android:colorBackground">@color/custom_theme_color</item>
+        <item name="colorPrimary">@color/colorAccent</item>
+    </style>
+
+
+    <style name="MyButton">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:text">Button</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="MyButton2" parent="MyButton">
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+    <style name="MyButton2.MyButton3">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
 </resources>
